@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 #import "TopWindow.h"
 
 @interface ViewController ()
@@ -37,6 +38,12 @@
 
 - (IBAction)showButtonPressed:(id)sender {
     [topWindow show];
+}
+
+- (IBAction)next:(id)sender {
+    SecondViewController * vc = [[SecondViewController alloc] init];
+    vc.topWindow = topWindow;
+    [self presentModalViewController:vc animated:YES];
 }
 
 @end

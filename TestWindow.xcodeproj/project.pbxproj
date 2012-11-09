@@ -16,6 +16,8 @@
 		45746F2015FB36B8003D9D8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45746F1F15FB36B8003D9D8D /* ViewController.m */; };
 		45746F2315FB36B8003D9D8D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45746F2115FB36B8003D9D8D /* ViewController.xib */; };
 		45746F2B15FB36F0003D9D8D /* TopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 45746F2A15FB36EF003D9D8D /* TopWindow.m */; };
+		4585F50D164CF8400015932B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585F50B164CF8400015932B /* SecondViewController.m */; };
+		4585F50E164CF8400015932B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4585F50C164CF8400015932B /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		45746F2215FB36B8003D9D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		45746F2915FB36EF003D9D8D /* TopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopWindow.h; sourceTree = "<group>"; };
 		45746F2A15FB36EF003D9D8D /* TopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopWindow.m; sourceTree = "<group>"; };
+		4585F50A164CF8400015932B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4585F50B164CF8400015932B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4585F50C164CF8400015932B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				45746F1315FB36B8003D9D8D /* Supporting Files */,
 				45746F2915FB36EF003D9D8D /* TopWindow.h */,
 				45746F2A15FB36EF003D9D8D /* TopWindow.m */,
+				4585F50A164CF8400015932B /* SecondViewController.h */,
+				4585F50B164CF8400015932B /* SecondViewController.m */,
+				4585F50C164CF8400015932B /* SecondViewController.xib */,
 			);
 			path = TestWindow;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 			files = (
 				45746F1715FB36B8003D9D8D /* InfoPlist.strings in Resources */,
 				45746F2315FB36B8003D9D8D /* ViewController.xib in Resources */,
+				4585F50E164CF8400015932B /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +179,7 @@
 				45746F1D15FB36B8003D9D8D /* AppDelegate.m in Sources */,
 				45746F2015FB36B8003D9D8D /* ViewController.m in Sources */,
 				45746F2B15FB36F0003D9D8D /* TopWindow.m in Sources */,
+				4585F50D164CF8400015932B /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +295,7 @@
 				45746F2815FB36B8003D9D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
